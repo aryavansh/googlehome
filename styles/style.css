@@ -1,0 +1,178 @@
+
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.topnav {
+	position: relative;
+	text-align: right;
+	height: 60px;
+}
+
+.topnav ul {
+	list-style-type: none;
+	margin-top: 0px;
+	margin-right: 29px;
+	padding: 0;
+	height: 100%;
+
+}
+
+.topnav ul li{
+	height: 100%;
+	padding-left: 14px;
+	position: relative;
+	display: inline-block;
+	font-family: arial, sans-serif;
+	line-height: 60px;
+    text-align: left;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	opacity: .75;
+	font-size: 13px;
+}
+
+a:hover {
+	text-decoration: underline;
+	opacity: .85;
+}
+
+.smallicon {
+	opacity: 1;
+}
+
+.smallicon img {
+	vertical-align: middle;
+
+}
+
+.smallicon:hover {
+	opacity: 1;
+}
+
+.logo {
+	clear: both;
+	display: block;
+	width: 272px;
+	height: 92px;
+	margin-top: 138px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.searchbox {
+	width: 580px;
+	position: relative;
+	margin: 30px auto;
+	border: 1px solid #d9d9d9;
+}
+
+.searchbox input {
+	width: 530px;
+	padding: 10px 9px 10px 9px;
+	margin: 0;
+	font-size: 16px;
+	box-sizing: border-box;
+	border: none;
+}
+
+.searchbox input:focus {
+outline: none;
+}
+
+
+.searchbox img {
+	display: inline-block;
+	vertical-align: middle;
+	height: 20px;
+	width: 14px;
+	padding: 8px;
+	margin-left: 15px;
+}
+
+.searchbox:hover {
+	border: 1px solid #4285f4;
+}
+
+.searchbox:active {
+	border: 1px solid #4285f4;
+	box-shadow: 0 0 0px;
+}
+
+.buttons {
+	width: 400px;
+	margin: 20px auto 0 auto;
+	text-align: center;
+}
+
+.buttons input {
+	-webkit-appearance: none;
+	background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+	height: 36px;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	margin: 2px 2px;
+	padding: 0 16px;
+}
+
+.buttons input:hover {
+	color: #222;
+	border: 1px solid #b3b3b3;
+}
+
+.emptysp {
+	height: 201px;
+}
+
+.botnav {
+	height: 29px;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	padding: 10px 0 0 0;
+}
+
+.botnav ul {
+	list-style-type: none;
+	bottom: 0;
+	margin: 0;
+	width: 500px;
+	display: inline-block;
+}
+
+.botnav	ul li {
+	display: inline-block;
+}
+
+.left {
+	float: left;
+	text-align: left;
+	margin-left: -37px;
+}
+
+.right {
+	float: right;
+	text-align: right;
+	margin-right: 19px;
+}
+
+.botnav a {
+	text-decoration: none;
+	color: #666;
+	font-size: small;
+	padding-left: 27px;
+	opacity: 1;
+	font-family: arial, sans-serif;
+}
+
+.botnav a:hover {
+	text-decoration: underline;
+}
+
